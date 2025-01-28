@@ -10,6 +10,10 @@ public class TestCircle{
 		System.out.println(" the circle has radius of " 
 				+ c2.getRadius() + " and area of " + c2.getArea());
 		
+	    Circle c3 = new Circle(3.0);
+		
+		System.out.println(" the circle has radius of " 
+				+ c3.getRadius() + " and area of " + c3.getArea());
 		
 	}
 }
