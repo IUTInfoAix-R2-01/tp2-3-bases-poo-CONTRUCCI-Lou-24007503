@@ -13,6 +13,12 @@ public class Circle {
       color = "red";
    }
    
+   public Circle (double r, String c) { 
+	   radius = r ;
+	   color = c; 
+   }
+   
+   
    public double getRadius() {
      return radius; 
    }
@@ -20,4 +26,5 @@ public class Circle {
    public double getArea() {
       return radius*radius*Math.PI;
    }
+   
 }
