@@ -10,10 +10,11 @@ public class TestCircle{
 		System.out.println(" the circle has radius of " 
 				+ c2.getRadius() + " and area of " + c2.getArea());
 		
-	    Circle c3 = new Circle(3.0);
+	    Circle c3 = new Circle(3.0, "blue");
 		
 		System.out.println(" the circle has radius of " 
-				+ c3.getRadius() + " and area of " + c3.getArea());
+				+ c3.getRadius() + " and area of " + c3.getArea()
+				+ " and is color is " + c3.getColor() );
 		
 	}
 }
