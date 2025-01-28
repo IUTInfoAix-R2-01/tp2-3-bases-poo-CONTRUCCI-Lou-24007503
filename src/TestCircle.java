@@ -16,5 +16,8 @@ public class TestCircle{
 				+ c3.getRadius() + " and area of " + c3.getArea()
 				+ " and is color is " + c3.getColor() );
 		
+		//System.out.println(c1.radius); ca ne fonctinne pas car radius est priver
+		
+		
 	}
 }
