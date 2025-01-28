@@ -18,6 +18,9 @@ public class Circle {
 	   color = c; 
    }
    
+   public String getColor() { 
+	  return color ; 
+   }
    
    public double getRadius() {
      return radius; 
